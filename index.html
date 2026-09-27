@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>GET A DISCOUNT OF ₱50 WHEN YOU ORDER MORE THAN ₱499.</h1>
+    <div class="container">
+        <div class="menu" id="buger">
+            <h2>BURGER</h2>
+            <img src="burger.jpg" alt="burger">
+            <p id="burgerprice"></p>
+            <p id="burgerqty"></p>
+            <div>
+                <button id="burgeradd">+1</button>
+                <button id="burgerminus">-1</button>
+            </div>
+            <hr>
+            <p id="burgertotal">Subtotal:</p>
+        </div>
+
+        <div class="menu" id="fries">
+            <h2>FRIES</h2>
+            <img src="fries.jpg" alt="fries">
+            <p id="friesprice"></p>
+            <p id="friesqty"></p>
+            <div>
+                <button id="friesadd">+1</button>
+                <button id="friesminus">-1</button>
+            </div>
+            <hr>
+            <p id="friestotal">Subtotal:</p>
+
+        </div>
+
+        <div class="menu" id="coke">
+            <h2>COKE</h2>
+            <img src="coke.webp" alt="Coke">
+            <p id="cokeprice"></p>
+            <p id="cokeqty"></p>
+            <div>
+                <button id="cokeadd">+1</button>
+                <button id="cokeminus">-1</button>
+            </div>
+            <hr>
+            <p id="coketotal">Subtotal:</p>
+        </div>
+    </div>
+
+    <div class="grandtotal-container">
+        <button class="clearcart-btn" id="clearcart">CLEAR CART</button>
+        <div>
+            <h2 id="grandtotal"></h2>
+            <p id="discount"></p>
+            <h3 id="finaltotal"></h3>
+        </div>
+    </div>
+
+    <script src="restomenu.js"></script>
+</body>
+</html>
