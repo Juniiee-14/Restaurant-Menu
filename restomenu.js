@@ -119,6 +119,8 @@ document.getElementById("clearcart").onclick = function() {
     friesQuantity = 0
     cokeQuantity = 0
 
+    updateDiscount()
+
     document.getElementById("burgerqty").textContent = "Quantity: " + burgerQuantity
     document.getElementById("friesqty").textContent = "Quantity: " + friesQuantity
     document.getElementById("cokeqty").textContent = "Quantity: " + cokeQuantity
